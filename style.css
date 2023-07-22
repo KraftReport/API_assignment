@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 3.5rem;
+    font-family: monospace;
+}
+
+.profile{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile img{
+    margin-right: 10px;
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+    height: 50%;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 23%;
+    box-shadow:  0 0 4px 3px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.title{
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.category,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: monospace;
+    margin: 1em;
+    font-size: 1rem;
+}
+
+.btn{
+    font-family: monospace;
+    margin-left: 230px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 70px;
+    height: 40px;
+}
+/* .btn-box{
+    display: flex;
+} */
+.back{
+    font-family: monospace;
+    margin-left: 500px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 70px;
+    height: 40px;
+
+}
